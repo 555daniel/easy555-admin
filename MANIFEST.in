@@ -1,0 +1,7 @@
+include CHANGES.rst
+include CONTRIBUTING.rst
+include tox.ini
+graft artwork
+graft docs
+prune docs/_build
+graft tests
